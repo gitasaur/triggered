@@ -13,3 +13,5 @@ npm install -g triggered
 	"trigger": "node run start"
 }
 ```
+
+Goose
