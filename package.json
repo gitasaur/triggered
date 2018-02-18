@@ -1,0 +1,28 @@
+{
+  "name": "triggered",
+  "version": "0.0.1",
+  "description": "A simple app that triggers deploys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo TODO: Write some tests"
+  },
+  "bin": {
+    "triggered": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusklein/triggered.git"
+  },
+  "author": "Marcus Klein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusklein/triggered/issues"
+  },
+  "homepage": "https://github.com/marcusklein/triggered#readme",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-simple-router": "^0.2.0"
+  }
+}
